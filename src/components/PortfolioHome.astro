@@ -20,7 +20,7 @@ const clusterClass: Record<ClusterKey, string> = {
   ops: 'ops',
 };
 
-const panelIds: PanelId[] = ['projects', 'methodtab', 'stack', 'background'];
+const panelIds: PanelId[] = ['projects', 'notebooks', 'methodtab', 'stack', 'background'];
 ---
 <!doctype html>
 <html lang={content.lang}>
@@ -609,6 +609,11 @@ const panelIds: PanelId[] = ['projects', 'methodtab', 'stack', 'background'];
     }
     #projects{gap:20px}
     #projects.active{display:grid}
+    #notebooks.active{display:grid}
+    #notebooks{
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:18px;
+    }
     .card{
       position:relative;
       display:grid;
@@ -629,6 +634,80 @@ const panelIds: PanelId[] = ['projects', 'methodtab', 'stack', 'background'];
     .card--health::before{background:var(--health)}
     .card--models::before{background:var(--models)}
     .card--ops::before{background:var(--ops)}
+    .notebook-card{
+      position:relative;
+      display:flex;
+      flex-direction:column;
+      min-height:100%;
+      padding:28px;
+      border:1px solid var(--line);
+      border-radius:28px;
+      background:rgba(255,255,255,.035);
+      overflow:hidden;
+    }
+    .notebook-card::before{
+      content:"";
+      position:absolute;
+      inset:0 auto 0 0;
+      width:2px;
+      background:linear-gradient(180deg,var(--models),var(--ops));
+    }
+    .notebook-theme{
+      margin:0 0 16px;
+      color:var(--models);
+      font-family:'Space Mono',monospace;
+      font-size:11px;
+      letter-spacing:.10em;
+      text-transform:uppercase;
+    }
+    .notebook-card h3{
+      margin:0 0 14px;
+      max-width:18ch;
+      font-size:clamp(26px,3vw,42px);
+      line-height:.98;
+      letter-spacing:-.055em;
+      font-weight:300;
+    }
+    .notebook-card p:not(.notebook-theme){
+      margin:0;
+      color:var(--soft);
+      font-size:15px;
+      line-height:1.64;
+    }
+    .notebook-card ul{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin:22px 0 24px;
+      padding:0;
+      list-style:none;
+    }
+    .notebook-card li{
+      border:1px solid var(--line);
+      border-radius:999px;
+      padding:8px 10px;
+      color:var(--ink);
+      background:rgba(255,255,255,.045);
+      font-family:'Space Mono',monospace;
+      font-size:11px;
+    }
+    .notebook-card .notebook-link{
+      width:fit-content;
+      margin-top:auto;
+      border:1px solid var(--models);
+      border-radius:999px;
+      color:var(--ink);
+      padding:11px 14px;
+      font-family:'Space Mono',monospace;
+      font-size:11px;
+      font-weight:700;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+    }
+    .notebook-card .notebook-link:hover{
+      background:var(--models);
+      color:var(--bg);
+    }
     .num{
       font-size:34px;
       font-weight:300;
@@ -746,6 +825,7 @@ const panelIds: PanelId[] = ['projects', 'methodtab', 'stack', 'background'];
     }
     .reveal,
     .card,
+    .notebook-card,
     .box,
     .about-card,
     .featured-shell{
@@ -755,6 +835,7 @@ const panelIds: PanelId[] = ['projects', 'methodtab', 'stack', 'background'];
     }
     .reveal.in,
     .card.in,
+    .notebook-card.in,
     .box.in,
     .about-card.in,
     .featured-shell.in{opacity:1;transform:none}
@@ -806,6 +887,7 @@ const panelIds: PanelId[] = ['projects', 'methodtab', 'stack', 'background'];
       .hero-metrics,
       .cloud-pin,
       .project-meta,
+      #notebooks,
       #stack .grid,
       #background .grid{
         grid-template-columns:1fr;
@@ -859,6 +941,7 @@ const panelIds: PanelId[] = ['projects', 'methodtab', 'stack', 'background'];
       form{padding:24px 22px 26px}
       .reveal,
       .card,
+      .notebook-card,
       .box,
       .about-card,
       .featured-shell{
@@ -897,6 +980,7 @@ const panelIds: PanelId[] = ['projects', 'methodtab', 'stack', 'background'];
       .featured-shell,
       .about-shell{padding:24px 16px 26px}
       .card{padding:20px 16px 20px 20px}
+      .notebook-card{padding:20px 16px 20px 20px}
       .cloud-stage{height:340px;min-height:340px}
       .contact-layout{gap:32px}
       .summary{padding:18px}
@@ -1095,6 +1179,20 @@ const panelIds: PanelId[] = ['projects', 'methodtab', 'stack', 'background'];
                   ))}
                 </div>
               </div>
+            </article>
+          ))}
+        </div>
+
+        <div class="panel" id="notebooks">
+          {content.notebookReports.map((report) => (
+            <article class="notebook-card">
+              <p class="notebook-theme">{report.theme}</p>
+              <h3>{report.title}</h3>
+              <p>{report.result}</p>
+              <ul>
+                {report.methods.map((method) => <li>{method}</li>)}
+              </ul>
+              <a class="notebook-link" href={report.href} target="_blank" rel="noreferrer">{report.linkLabel}</a>
             </article>
           ))}
         </div>
@@ -1502,7 +1600,7 @@ const panelIds: PanelId[] = ['projects', 'methodtab', 'stack', 'background'];
       });
     }, { threshold: 0.12 });
 
-    document.querySelectorAll('.reveal,.card,.box,.about-card,.featured-shell').forEach((element) => {
+    document.querySelectorAll('.reveal,.card,.notebook-card,.box,.about-card,.featured-shell').forEach((element) => {
       observer.observe(element);
     });
   </script>
