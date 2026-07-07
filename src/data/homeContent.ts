@@ -156,7 +156,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
   en: {
     lang: 'en',
     title: 'Luanda Rodrigues | Data Analyst',
-    description: 'Portfolio of Luanda Rodrigues, a Brazilian data analyst focused on healthcare, BI, SQL, machine learning, hospital operations and decision intelligence.',
+    description: 'Portfolio of Luanda Rodrigues, a Brazilian data analyst working with BI, SQL, cloud analytics, machine learning, notebooks and decision-focused data products.',
     alternateHrefLang: 'pt-BR',
     alternateHref: '/pt/',
     topNav: [
@@ -168,7 +168,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
     languageSwitch: { label: 'PT-BR', href: '/pt/' },
     sidebar: {
       role: 'Data Analyst',
-      intro: 'Brazilian data analyst connecting healthcare operations, BI, machine learning and decision intelligence.',
+      intro: 'Brazilian data analyst connecting BI, SQL, cloud analytics, machine learning and decision-focused reporting.',
       graphLabel: 'live note cloud',
       links: [
         { label: 'Email', href: 'mailto:luandarodrigues30@gmail.com' },
@@ -178,12 +178,12 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
       ],
     },
     hero: {
-      eyebrow: 'Data Analysis · Team Management · Health Operations',
+      eyebrow: 'Data Analysis · BI · Cloud Analytics · ML',
       title: {
         before: 'Turning complex systems into ',
         accent: 'readable data.',
       },
-      copy: 'I build analysis that connects hospital operations, public healthcare data, SQL, BI, machine learning, graphs and decision-focused communication.',
+      copy: 'I build analysis that connects SQL, BI, cloud tools, machine learning, notebooks and decision-focused communication.',
       metrics: [
         { value: '218 countries', label: 'WHO benchmark coverage inside the final country-year panel.' },
         { value: '47,714 facilities', label: 'Primary healthcare units mapped and audited at national scale.' },
@@ -201,7 +201,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
       cards: [
         { label: '01', title: 'Healthcare operations', text: 'Clinical pharmacy flows, public healthcare data and hospital routines with real operational impact.', cluster: 'health' },
         { label: '02', title: 'Decision intelligence', text: 'BI, KPI framing, analytical products and communication designed for practical action.', cluster: 'ops' },
-        { label: '03', title: 'Technical stack', text: 'Python, SQL, Power BI, machine learning, graph analysis and NLP with a strong data-quality discipline.', cluster: 'models' },
+        { label: '03', title: 'Technical stack', text: 'Python, SQL, Power BI, Looker Studio, BigQuery, Snowflake, machine learning, graph analysis and NLP.', cluster: 'models' },
         { label: '04', title: 'Brazilian context', text: 'Brazil-based professional available for remote work and open to relocation.', cluster: 'health' },
       ],
     },
@@ -221,14 +221,14 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
       graphNodes: {
         health: ['healthcare', 'public health', 'HC-UFU', 'EBSERH', 'clinical pharmacy', 'UBS', 'SUS', 'geodata'],
         models: ['machine learning', 'Scikit-learn', 'ROC-AUC', 'NLP', 'TF-IDF', 'reviews', 'risk'],
-        ops: ['Power BI', 'SQL', 'dashboards', 'KPIs', 'ETL', 'Pandas', 'operations'],
+        ops: ['Power BI', 'Looker Studio', 'BigQuery', 'Snowflake', 'Copilot', 'SQL', 'dashboards', 'KPIs'],
       },
     },
     featured: {
       eyebrow: 'Featured case / Health analytics / Benchmark',
       title: 'Can public health data predict life expectancy differences?',
       question: 'WHO indicators explain life expectancy surprisingly well at country-year level, while the residuals still show where local context refuses to disappear.',
-      summary: 'I rebuilt WHO public indicators into a country-year analytical panel, audited upstream quality, compared local model families and translated the outcome into a live report. The result is not only a strong benchmark, but a decision-intelligence case that keeps uncertainty visible instead of flattening everything into one score.',
+      summary: 'I rebuilt WHO public indicators into a country-year analytical panel, audited upstream quality, compared local model families and translated the outcome into a live report. The benchmark is strong, and the case keeps uncertainty visible instead of flattening everything into one score.',
       stats: [
         { label: 'Analytical rows', value: '13,785', text: 'Country-year observations rebuilt from WHO public indicators.' },
         { label: 'Coverage', value: '218', text: 'Countries and entities included in the final rebuilt panel.' },
@@ -265,7 +265,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         projects: ['Projects', 'The WHO flagship case sits right above. These additional projects show how I work across healthcare, machine learning, SQL, graphs, data products and decision-focused communication.'],
         notebooks: ['Notebook reports', 'Smaller but deeper statistical studies, written as GitHub reports with charts, assumptions, uncertainty and reproducible checks.'],
         methodtab: ['Method', 'The portfolio follows a repeatable analytics workflow: frame the decision, audit the data, integrate sources, choose the right analytical lens, publish usable outputs and communicate limits clearly.'],
-        stack: ['Stack', 'Tools and platforms used across the portfolio: Python, SQL, DuckDB, BI, machine learning, graph analytics, NLP, Databricks-oriented architecture, public APIs and web publishing.'],
+        stack: ['Stack', 'Tools and platforms used across the portfolio and recent coursework: Python, SQL, DuckDB, Power BI, Looker Studio, BigQuery, Snowflake, machine learning, graph analytics, NLP, Databricks-oriented architecture, public APIs and web publishing.'],
         background: ['Background', 'The career layer behind the projects: healthcare, Biomedical Engineering, Hospital Management, EBSERH/HC-UFU, marketing technology and leadership of pharma/health media projects.'],
       },
       method: [
@@ -277,12 +277,12 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         { label: '06', title: 'Interpret for action', text: 'Separate signal from noise and communicate recommendations, limits and trade-offs in a decision-ready way.', cluster: 'ops' },
       ],
       stack: [
-        { label: 'Analysis', title: 'Python · Pandas · NumPy', text: 'Cleaning, exploration, feature engineering, missing-value handling and analytical consistency checks.' },
-        { label: 'SQL & Modeling', title: 'SQL · DuckDB · data modeling', text: 'Analytical queries, joins, CTEs, semantic layers, KPI logic and dataset design.' },
-        { label: 'BI & Dashboards', title: 'Power BI · Looker · decision metrics', text: 'Dashboards, monitoring views, KPI framing and stakeholder-facing analytical products.' },
+        { label: 'Analysis', title: 'Python · Pandas · NumPy', text: 'Cleaning, exploration, feature engineering, missing-value handling and checks that make the dataset easier to trust.' },
+        { label: 'SQL & Modeling', title: 'SQL · DuckDB · BigQuery', text: 'Analytical queries, joins, CTEs, semantic layers, KPI logic and datasets prepared for BI or notebooks.' },
+        { label: 'BI & Dashboards', title: 'Power BI · Looker Studio · Copilot', text: 'Dashboards, KPI framing, report design and recent practice with AI-assisted BI workflows.' },
+        { label: 'Cloud Data', title: 'Google Cloud · Snowflake · Databricks', text: 'Coursework and project work around warehouse thinking, lakehouse layers, public data ingestion and export pipelines.' },
         { label: 'Machine Learning', title: 'Scikit-learn · validation · benchmarking', text: 'Classification, temporal evaluation, ROC-AUC, model comparison and interpretable scoring.' },
         { label: 'Graphs & Text', title: 'NetworkX · TF-IDF · NLP', text: 'Relationship mapping, clustering, recommender logic and text-signal extraction.' },
-        { label: 'Platforms & Publishing', title: 'Databricks · APIs · GitHub · Vercel', text: 'Lakehouse-oriented thinking, medallion layers, public data ingestion, export pipelines and web delivery.' },
       ],
       background: [
         { label: 'Healthcare', title: 'Hospital operations', text: 'Clinical pharmacy flows, KPIs, public data and decision support.' },
@@ -330,7 +330,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         number: '03',
         metric: 'Lakehouse + app',
         title: 'Crypto Market Intelligence Lakehouse',
-        summary: 'This platform turns crypto market signals into an analytical product that highlights which assets and narratives deserve attention. I structured public spot, derivatives and on-chain data through a Databricks-oriented bronze-silver-gold flow, then published both a case-study layer and a separate interactive app from the same curated output.',
+        summary: 'This platform turns crypto market signals into an analytical product that ranks which assets and narratives deserve attention. I structured public spot, derivatives and on-chain data through a Databricks-oriented bronze-silver-gold flow, then published both a case-study layer and a separate interactive app from the same curated output.',
         cluster: 'ops',
         meta: [
           { label: 'Scope', title: 'Lakehouse + app', text: 'Case-study surface, interactive asset explorer and a public snapshot fed by the same analytical pipeline.' },
@@ -461,7 +461,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
   pt: {
     lang: 'pt-BR',
     title: 'Luanda Rodrigues | Analista de Dados',
-    description: 'Portfólio de Luanda Rodrigues, analista de dados brasileira focada em saúde, BI, SQL, machine learning, operações hospitalares e inteligência para decisão.',
+    description: 'Portfólio de Luanda Rodrigues, analista de dados brasileira que trabalha com BI, SQL, cloud analytics, machine learning, notebooks e produtos de dados para decisão.',
     alternateHrefLang: 'en',
     alternateHref: '/',
     topNav: [
@@ -473,7 +473,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
     languageSwitch: { label: 'EN', href: '/' },
     sidebar: {
       role: 'Analista de Dados',
-      intro: 'Analista de dados brasileira conectando operações em saúde, BI, machine learning e inteligência para decisão.',
+      intro: 'Analista de dados brasileira conectando BI, SQL, cloud analytics, machine learning e reports para decisão.',
       graphLabel: 'nuvem viva de notas',
       links: [
         { label: 'Email', href: 'mailto:luandarodrigues30@gmail.com' },
@@ -483,12 +483,12 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
       ],
     },
     hero: {
-      eyebrow: 'Data Analysis · Team Management · Health Operations',
+      eyebrow: 'Data Analysis · BI · Cloud Analytics · ML',
       title: {
         before: 'Transformando sistemas complexos em ',
         accent: 'dados legíveis.',
       },
-      copy: 'Construo análises que conectam operações hospitalares, dados públicos de saúde, SQL, BI, machine learning, grafos e comunicação para decisão.',
+      copy: 'Construo análises que conectam SQL, BI, cloud tools, machine learning, notebooks e comunicação orientada à decisão.',
       metrics: [
         { value: '218 países', label: 'Cobertura do benchmark da OMS dentro do painel país-ano final.' },
         { value: '47.714 unidades', label: 'UBS mapeadas e auditadas em escala nacional.' },
@@ -506,7 +506,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
       cards: [
         { label: '01', title: 'Operações em saúde', text: 'Fluxos de farmácia clínica, dados públicos de saúde e rotinas hospitalares com impacto operacional real.', cluster: 'health' },
         { label: '02', title: 'Inteligência para decisão', text: 'BI, enquadramento de KPIs, produtos analíticos e comunicação desenhada para ação prática.', cluster: 'ops' },
-        { label: '03', title: 'Stack técnica', text: 'Python, SQL, Power BI, machine learning, análise de grafos e NLP com forte disciplina de qualidade de dados.', cluster: 'models' },
+        { label: '03', title: 'Stack técnica', text: 'Python, SQL, Power BI, Looker Studio, BigQuery, Snowflake, machine learning, análise de grafos e NLP.', cluster: 'models' },
         { label: '04', title: 'Contexto brasileiro', text: 'Profissional brasileira disponível para trabalho remoto e aberta à relocação.', cluster: 'health' },
       ],
     },
@@ -526,14 +526,14 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
       graphNodes: {
         health: ['saúde', 'saúde pública', 'HC-UFU', 'EBSERH', 'farmácia clínica', 'UBS', 'SUS', 'geodados'],
         models: ['machine learning', 'Scikit-learn', 'ROC-AUC', 'NLP', 'TF-IDF', 'reviews', 'risco'],
-        ops: ['Power BI', 'SQL', 'dashboards', 'KPIs', 'ETL', 'Pandas', 'operações'],
+        ops: ['Power BI', 'Looker Studio', 'BigQuery', 'Snowflake', 'Copilot', 'SQL', 'dashboards', 'KPIs'],
       },
     },
     featured: {
       eyebrow: 'Case em destaque / Health analytics / Benchmark',
       title: 'Dados públicos de saúde conseguem prever diferenças de expectativa de vida?',
       question: 'Os indicadores da OMS explicam diferenças de expectativa de vida de forma surpreendentemente forte em nível país-ano, enquanto os resíduos ainda mostram onde o contexto local insiste em aparecer.',
-      summary: 'Reconstruí indicadores públicos da OMS em um painel analítico país-ano, auditei a qualidade upstream, comparei famílias locais de modelos e transformei o resultado em um relatório ao vivo. O valor do projeto não está só na força do benchmark, mas em tratar a análise como inteligência para decisão, mantendo a incerteza visível em vez de escondê-la atrás de uma única métrica.',
+      summary: 'Reconstruí indicadores públicos da OMS em um painel analítico país-ano, auditei a qualidade upstream, comparei famílias locais de modelos e transformei o resultado em um relatório ao vivo. O benchmark é forte, e o case mantém a incerteza visível em vez de escondê-la atrás de uma única métrica.',
       stats: [
         { label: 'Linhas analíticas', value: '13.785', text: 'Observações país-ano reconstruídas a partir de indicadores públicos da OMS.' },
         { label: 'Cobertura', value: '218', text: 'Países e entidades incluídos no painel final reconstruído.' },
@@ -570,7 +570,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         projects: ['Projetos', 'O case principal da OMS está logo acima. Estes outros projetos mostram como eu trabalho com saúde, machine learning, SQL, grafos, produtos de dados e comunicação orientada à decisão.'],
         notebooks: ['Reports em notebooks', 'Estudos estatísticos menores, mas mais densos, escritos como reports no GitHub com gráficos, premissas, incerteza e checagens reprodutíveis.'],
         methodtab: ['Método', 'O portfólio segue um fluxo analítico repetível: enquadrar a decisão, auditar os dados, integrar fontes, escolher a lente analítica certa, publicar outputs úteis e comunicar limites com clareza.'],
-        stack: ['Stack', 'Ferramentas e plataformas usadas ao longo do portfólio: Python, SQL, DuckDB, BI, machine learning, análise de grafos, NLP, arquitetura orientada a Databricks, APIs públicas e publicação web.'],
+        stack: ['Stack', 'Ferramentas e plataformas usadas no portfólio e reforçadas pelos cursos recentes: Python, SQL, DuckDB, Power BI, Looker Studio, BigQuery, Snowflake, machine learning, grafos, NLP, arquitetura orientada a Databricks, APIs públicas e publicação web.'],
         background: ['Background', 'A camada de trajetória por trás dos projetos: saúde, Engenharia Biomédica, Gestão Hospitalar, EBSERH/HC-UFU, marketing technology e liderança de projetos de mídia para pharma/health.'],
       },
       method: [
@@ -582,12 +582,12 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         { label: '06', title: 'Interpretar para ação', text: 'Separo sinal de ruído e comunico recomendações, limites e trade-offs de forma pronta para decisão.', cluster: 'ops' },
       ],
       stack: [
-        { label: 'Análise', title: 'Python · Pandas · NumPy', text: 'Limpeza, exploração, feature engineering, tratamento de valores ausentes e checagens de consistência analítica.' },
-        { label: 'SQL & Modelagem', title: 'SQL · DuckDB · modelagem de dados', text: 'Consultas analíticas, joins, CTEs, camadas semânticas, lógica de KPI e desenho de datasets.' },
-        { label: 'BI & Dashboards', title: 'Power BI · Looker · métricas para decisão', text: 'Dashboards, monitoramento, enquadramento de KPIs e produtos analíticos voltados a stakeholders.' },
+        { label: 'Análise', title: 'Python · Pandas · NumPy', text: 'Limpeza, exploração, feature engineering, tratamento de valores ausentes e checagens que deixam a base mais confiável.' },
+        { label: 'SQL & Modelagem', title: 'SQL · DuckDB · BigQuery', text: 'Consultas analíticas, joins, CTEs, camadas semânticas, lógica de KPI e datasets prontos para BI ou notebooks.' },
+        { label: 'BI & Dashboards', title: 'Power BI · Looker Studio · Copilot', text: 'Dashboards, enquadramento de KPIs, desenho de reports e prática recente com fluxos de BI apoiados por IA.' },
+        { label: 'Cloud Data', title: 'Google Cloud · Snowflake · Databricks', text: 'Cursos e projetos ligados a warehouse thinking, camadas lakehouse, ingestão de dados públicos e pipelines de export.' },
         { label: 'Machine Learning', title: 'Scikit-learn · validação · benchmarking', text: 'Classificação, avaliação temporal, ROC-AUC, comparação de modelos e scoring interpretável.' },
         { label: 'Grafos & Texto', title: 'NetworkX · TF-IDF · NLP', text: 'Mapeamento de relações, clusterização, lógica de recomendação e extração de sinais de texto.' },
-        { label: 'Plataformas & Publishing', title: 'Databricks · APIs · GitHub · Vercel', text: 'Pensamento orientado a lakehouse, camadas medallion, ingestão pública, pipelines de export e entrega web.' },
       ],
       background: [
         { label: 'Saúde', title: 'Operações hospitalares', text: 'Fluxos de farmácia clínica, KPIs, dados públicos e apoio à decisão.' },
@@ -669,7 +669,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         number: '05',
         metric: '99.441 pedidos',
         title: 'Experiência de Entrega no E-Commerce Brasileiro',
-        summary: 'Esta análise revela onde o atrito logístico se transforma em insatisfação do cliente e quais partes da jornada de compra mais afetam a experiência final. Com 99.441 pedidos e dados de entrega, frete, sellers e reviews, construí uma leitura operacional de atrasos, comportamento por categoria e padrões de pagamento para apoiar ação sobre qualidade de serviço, e não apenas reporte descritivo.',
+        summary: 'Esta análise revela onde o atrito logístico se transforma em insatisfação do cliente e quais partes da jornada de compra mais afetam a experiência final. Com 99.441 pedidos e dados de entrega, frete, sellers e reviews, construí uma leitura operacional de atrasos, comportamento por categoria e padrões de pagamento para apoiar ação sobre qualidade de serviço.',
         cluster: 'ops',
         meta: [
           { label: 'Escopo', title: 'Pedidos e reviews', text: 'Pedidos, itens, sellers, pagamentos, frete, reviews e eventos de entrega.' },
