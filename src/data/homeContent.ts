@@ -176,7 +176,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
       copy: 'I build analysis that connects hospital operations, public healthcare data, SQL, BI, machine learning, graphs and decision-focused communication.',
       metrics: [
         { value: '218 countries', label: 'WHO benchmark coverage inside the final country-year panel.' },
-        { value: '47,714 facilities', label: 'Primary healthcare units mapped and audited at national scale.' },
+        { value: '5,567', label: 'Brazilian municipalities mapped for telemedicine opportunity and access gaps.' },
         { value: '13,785 rows', label: 'Analytical observations rebuilt inside the flagship health case.' },
       ],
     },
@@ -282,18 +282,18 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
     projects: [
       {
         number: '01',
-        metric: '47,714 facilities',
-        title: 'Mapping Primary Healthcare Units in Brazil',
-        summary: 'This project made visible where Brazil\'s primary healthcare registry is strong, where it breaks, and which territories need better coverage data. Using 47,714 registered facilities, I audited coordinate quality, missing information, regional distribution and spatial consistency to turn a raw public registry into a more reliable planning layer for healthcare coverage and territorial prioritization.',
+        metric: '5,567 municipalities',
+        title: 'Brazil Telemedicine Access Atlas',
+        summary: 'This atlas asks where telemedicine can expand access in Brazil by combining UBS coverage, census-sector population origins, pharmacies, Farmácia Popular, APS coverage, digital readiness and spatial access layers. It separates broad national opportunity from conservative pharmacy-assisted pilots, while keeping insufficient-evidence municipalities outside the ranking.',
         cluster: 'health',
         meta: [
-          { label: 'Scope', title: 'Healthcare registry', text: 'Primary care units, location data, regional distribution and public infrastructure coverage.' },
-          { label: 'Method', title: 'Geo + audit', text: 'Coordinate validation, null checks, regional aggregation and map interpretation.' },
-          { label: 'Decision value', title: 'Coverage', text: 'Supports prioritization, registry correction and territorial planning.' },
+          { label: 'Scope', title: 'National access atlas', text: 'Municipalities, UBS, pharmacies, Farmácia Popular, APS indicators and IBGE 2022 census-sector origins.' },
+          { label: 'Method', title: 'Spatial scoring', text: 'Population-weighted origins, geodesic distances, routed validation, evidence grades and audit trail.' },
+          { label: 'Decision value', title: 'Telemedicine targeting', text: 'Prioritizes municipalities for telemedicine positioning while separating data-review cases.' },
         ],
-        metaLine: 'Health Analytics · Geoanalysis · Data Quality · Public Health',
+        metaLine: 'Health Analytics · Telemedicine · Spatial Access · Public Data',
         actions: [
-          { label: 'Open panel', href: 'https://luandarodrigues.github.io/luandarodrigues/dashboards/ubs-healthcare-mapping/', external: true },
+          { label: 'Open atlas', href: '/dashboards/ubs-healthcare-mapping/' },
           { label: 'Open repository', href: 'https://github.com/luandarodrigues/luandarodrigues/tree/main/projects/ubs-healthcare-mapping', external: true },
         ],
       },
@@ -445,7 +445,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
       copy: 'Construo análises que conectam operações hospitalares, dados públicos de saúde, SQL, BI, machine learning, grafos e comunicação para decisão.',
       metrics: [
         { value: '218 países', label: 'Cobertura do benchmark da OMS dentro do painel país-ano final.' },
-        { value: '47.714 unidades', label: 'UBS mapeadas e auditadas em escala nacional.' },
+        { value: '5.567', label: 'Municípios brasileiros mapeados para oportunidade de telemedicina e gaps de acesso.' },
         { value: '13.785 linhas', label: 'Observações analíticas reconstruídas no case principal de saúde.' },
       ],
     },
@@ -551,18 +551,18 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
     projects: [
       {
         number: '01',
-        metric: '47.714 unidades',
-        title: 'Mapeamento de Unidades Básicas de Saúde no Brasil',
-        summary: 'Este projeto deixa visível onde o cadastro da atenção primária no Brasil é consistente, onde ele falha e quais territórios precisam de melhor leitura de cobertura. Com 47.714 unidades registradas, auditei qualidade de coordenadas, campos ausentes, distribuição regional e consistência espacial para transformar um registro público bruto em uma camada mais confiável de planejamento territorial e apoio à decisão em saúde.',
+        metric: '5.567 municípios',
+        title: 'Atlas Nacional de Telemedicina e Acesso Territorial',
+        summary: 'Este atlas pergunta onde a telemedicina pode ampliar acesso no Brasil, combinando cobertura de UBS, origens populacionais por setores censitários, farmácias, Farmácia Popular, cobertura APS, prontidão digital e camadas de acesso espacial. Ele separa a oportunidade nacional ampla do piloto conservador em farmácias e mantém municípios com evidência insuficiente fora do ranking.',
         cluster: 'health',
         meta: [
-          { label: 'Escopo', title: 'Cadastro em saúde', text: 'UBS, localização, distribuição regional e cobertura de infraestrutura pública.' },
-          { label: 'Método', title: 'Geo + auditoria', text: 'Validação de coordenadas, checagem de nulos, agregação regional e leitura de mapas.' },
-          { label: 'Valor decisório', title: 'Cobertura', text: 'Apoia priorização, correção cadastral e planejamento territorial.' },
+          { label: 'Escopo', title: 'Atlas nacional de acesso', text: 'Municípios, UBS, farmácias, Farmácia Popular, indicadores APS e setores censitários IBGE 2022.' },
+          { label: 'Método', title: 'Score espacial', text: 'Origens população-ponderadas, distâncias geodésicas, validação por rotas, graus de evidência e trilha de auditoria.' },
+          { label: 'Valor decisório', title: 'Alvos de telemedicina', text: 'Prioriza municípios para posicionamento de telemedicina e separa casos que exigem revisão de dados.' },
         ],
-        metaLine: 'Health Analytics · Geoanálise · Data Quality · Saúde pública',
+        metaLine: 'Health Analytics · Telemedicina · Acesso espacial · Dados públicos',
         actions: [
-          { label: 'Abrir painel', href: 'https://luandarodrigues.github.io/luandarodrigues/dashboards/ubs-healthcare-mapping/', external: true },
+          { label: 'Abrir atlas', href: '/dashboards/ubs-healthcare-mapping/' },
           { label: 'Abrir repositório', href: 'https://github.com/luandarodrigues/luandarodrigues/tree/main/projects/ubs-healthcare-mapping', external: true },
         ],
       },
