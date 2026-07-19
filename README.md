@@ -18,7 +18,7 @@ npm run preview
 
 ## Deploy on Vercel
 
-Create a GitHub repository, upload these files, import the repository into Vercel and use the default Astro build settings.
+Create a GitLab repository, upload these files, import the repository into Vercel and use the default Astro build settings.
 
 Routes:
 - `/` English

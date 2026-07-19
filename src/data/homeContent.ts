@@ -172,7 +172,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
       graphLabel: 'live note cloud',
       links: [
         { label: 'Email', href: 'mailto:luandarodrigues30@gmail.com' },
-        { label: 'GitHub', href: 'https://github.com/luandarodrigues', external: true },
+        { label: 'GitLab', href: 'https://gitlab.com/luanda-rodrigues', external: true },
         { label: 'LinkedIn', href: 'https://www.linkedin.com/in/luanda-rodrigues', external: true },
         { label: 'Português', href: '/pt/' },
       ],
@@ -247,7 +247,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
       ],
       actions: [
         { label: 'Open live report', href: 'https://who-global-health-signals.vercel.app', external: true },
-        { label: 'View repository', href: 'https://github.com/luandarodrigues/who-global-health-signals', external: true },
+        { label: 'View repository', href: 'https://gitlab.com/luanda-rodrigues/who-global-health-signals', external: true },
       ],
     },
     tabs: {
@@ -263,7 +263,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
       ],
       summaries: {
         projects: ['Projects', 'The WHO flagship case sits right above. These additional projects show how I work across healthcare, machine learning, SQL, graphs, data products and decision-focused communication.'],
-        notebooks: ['Notebook reports', 'Smaller but deeper statistical studies, written as GitHub reports with charts, assumptions, uncertainty and reproducible checks.'],
+        notebooks: ['Notebook reports', 'Smaller but deeper statistical studies, written as GitLab reports with charts, assumptions, uncertainty and reproducible checks.'],
         methodtab: ['Method', 'The portfolio follows a repeatable analytics workflow: frame the decision, audit the data, integrate sources, choose the right analytical lens, publish usable outputs and communicate limits clearly.'],
         stack: ['Stack', 'Tools and platforms used across the portfolio and recent coursework: Python, SQL, DuckDB, Power BI, Looker Studio, BigQuery, Snowflake, machine learning, graph analytics, NLP, Databricks-oriented architecture, public APIs and web publishing.'],
         background: ['Background', 'The career layer behind the projects: healthcare, Biomedical Engineering, Hospital Management, EBSERH/HC-UFU, marketing technology and leadership of pharma/health media projects.'],
@@ -306,7 +306,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         metaLine: 'Health Analytics · Telemedicine · Spatial Access · Public Data',
         actions: [
           { label: 'Open atlas', href: '/dashboards/ubs-healthcare-mapping/' },
-          { label: 'Open repository', href: 'https://github.com/luandarodrigues/luandarodrigues/tree/main/projects/ubs-healthcare-mapping', external: true },
+          { label: 'Open repository', href: 'https://gitlab.com/luanda-rodrigues/luandarodrigues/-/tree/main/projects/ubs-healthcare-mapping', external: true },
         ],
       },
       {
@@ -323,7 +323,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         metaLine: 'People Analytics · BI Product · Dashboard Design · Workforce Planning',
         actions: [
           { label: 'Open panel', href: '/workforce-intelligence' },
-          { label: 'Open repository', href: 'https://github.com/luandarodrigues/workforce-labor-market-intelligence-bi-suite', external: true },
+          { label: 'Open repository', href: 'https://gitlab.com/luanda-rodrigues/workforce-labor-market-intelligence-bi-suite', external: true },
         ],
       },
       {
@@ -340,7 +340,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         metaLine: 'Databricks · Market Intelligence · Crypto Analytics · Data Product',
         actions: [
           { label: 'Open panel', href: 'https://crypto-market-intelligence-lakehous.vercel.app', external: true },
-          { label: 'Open repository', href: 'https://github.com/luandarodrigues/crypto-market-intelligence-lakehouse', external: true },
+          { label: 'Open repository', href: 'https://gitlab.com/luanda-rodrigues/crypto-market-intelligence-lakehouse', external: true },
         ],
       },
       {
@@ -357,7 +357,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         metaLine: 'Machine Learning · Clinical Risk · Scikit-learn · Responsible ML',
         actions: [
           { label: 'Open panel', href: 'https://luandarodrigues.github.io/heart-disease-risk-prediction/', external: true },
-          { label: 'Open repository', href: 'https://github.com/luandarodrigues/luandarodrigues/tree/main/projects/heart-disease-risk-ml', external: true },
+          { label: 'Open repository', href: 'https://gitlab.com/luanda-rodrigues/heart-disease-risk-prediction', external: true },
         ],
       },
       {
@@ -374,7 +374,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         metaLine: 'SQL · Logistics · Customer Experience · Operational Analytics',
         actions: [
           { label: 'Open panel', href: 'https://luandarodrigues.github.io/olist-delivery-experience-analytics/?v=4', external: true },
-          { label: 'Open repository', href: 'https://github.com/luandarodrigues/luandarodrigues/tree/main/projects/olist-ecommerce-experience-analytics', external: true },
+          { label: 'Open repository', href: 'https://gitlab.com/luanda-rodrigues/olist-delivery-experience-analytics', external: true },
         ],
       },
       {
@@ -391,7 +391,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         metaLine: 'NetworkX · NLP · Graphs · Recommender Systems',
         actions: [
           { label: 'Open panel', href: 'https://cinegraph-network-intelligence-lcsr.streamlit.app/', external: true },
-          { label: 'Open repository', href: 'https://github.com/luandarodrigues/luandarodrigues/tree/main/projects/cinegraph-network-intelligence', external: true },
+          { label: 'Open repository', href: 'https://gitlab.com/luanda-rodrigues/cinegraph-network-intelligence', external: true },
         ],
       },
     ],
@@ -401,7 +401,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         title: 'GLP-1 Bayesian Pharmacovigilance',
         result: 'Using openFDA/FAERS, the report compares Semaglutide and Tirzepatide with a Beta-Binomial model. The point is not clinical causality, but a careful statistical signal around serious reports and reporting bias.',
         methods: ['openFDA/FAERS', 'Beta-Binomial', 'Posterior intervals'],
-        href: 'https://github.com/luandarodrigues/projectsforjupyternotebook/tree/main/notebooks/glp1-bayesian-farmacovigilancia',
+        href: 'https://gitlab.com/luanda-rodrigues/projectsforjupyternotebook/-/tree/main/notebooks/glp1-bayesian-farmacovigilancia',
         linkLabel: 'Open report',
       },
       {
@@ -409,7 +409,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         title: 'Remote Work Salary Premium',
         result: 'The raw remote salary gap shrinks after adjustment: AIPW estimates an average premium of 2.4%, with an interval from -8.2% to 14.2%. The result is mostly a lesson about selection, confounding and uncertainty.',
         methods: ['AIPW', 'DML', 'Propensity score'],
-        href: 'https://github.com/luandarodrigues/projectsforjupyternotebook/tree/main/notebooks/remote-work-salary-causal-inference',
+        href: 'https://gitlab.com/luanda-rodrigues/projectsforjupyternotebook/-/tree/main/notebooks/remote-work-salary-causal-inference',
         linkLabel: 'Open report',
       },
       {
@@ -417,7 +417,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         title: 'Crypto Market Regime Detection',
         result: 'With recent Binance BTC/ETH data, the notebook separates market regimes using Gaussian mixtures, BIC selection and a holdout check. The report looks at volatility, drawdown and regime stability.',
         methods: ['Binance API', 'GMM', 'BIC + holdout'],
-        href: 'https://github.com/luandarodrigues/projectsforjupyternotebook/tree/main/notebooks/crypto-market-regime-detection',
+        href: 'https://gitlab.com/luanda-rodrigues/projectsforjupyternotebook/-/tree/main/notebooks/crypto-market-regime-detection',
         linkLabel: 'Open report',
       },
       {
@@ -425,7 +425,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         title: 'Brazil Inflation & Monetary Regimes',
         result: 'With BCB/SGS series from 2002 to 2026, the project finds 4 regimes by BIC and reads inflation, Selic, exchange rate and real rates alongside literature on pass-through and inflation targeting.',
         methods: ['BCB/SGS', 'GMM', 'Literature review'],
-        href: 'https://github.com/luandarodrigues/projectsforjupyternotebook/tree/main/notebooks/brazil-inflation-monetary-regimes',
+        href: 'https://gitlab.com/luanda-rodrigues/projectsforjupyternotebook/-/tree/main/notebooks/brazil-inflation-monetary-regimes',
         linkLabel: 'Open report',
       },
     ],
@@ -435,7 +435,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
       accent: 'decisions.',
       note: 'Send a structured message directly from here. The form forwards it to my inbox.',
       social: [
-        { label: 'GitHub', href: 'https://github.com/luandarodrigues', external: true },
+        { label: 'GitLab', href: 'https://gitlab.com/luanda-rodrigues', external: true },
         { label: 'LinkedIn', href: 'https://www.linkedin.com/in/luanda-rodrigues', external: true },
       ],
       form: {
@@ -477,7 +477,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
       graphLabel: 'nuvem viva de notas',
       links: [
         { label: 'Email', href: 'mailto:luandarodrigues30@gmail.com' },
-        { label: 'GitHub', href: 'https://github.com/luandarodrigues', external: true },
+        { label: 'GitLab', href: 'https://gitlab.com/luanda-rodrigues', external: true },
         { label: 'LinkedIn', href: 'https://www.linkedin.com/in/luanda-rodrigues', external: true },
         { label: 'English', href: '/' },
       ],
@@ -552,7 +552,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
       ],
       actions: [
         { label: 'Abrir relatório ao vivo', href: 'https://who-global-health-signals.vercel.app', external: true },
-        { label: 'Ver repositório', href: 'https://github.com/luandarodrigues/who-global-health-signals', external: true },
+        { label: 'Ver repositório', href: 'https://gitlab.com/luanda-rodrigues/who-global-health-signals', external: true },
       ],
     },
     tabs: {
@@ -568,7 +568,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
       ],
       summaries: {
         projects: ['Projetos', 'O case principal da OMS está logo acima. Estes outros projetos mostram como eu trabalho com saúde, machine learning, SQL, grafos, produtos de dados e comunicação orientada à decisão.'],
-        notebooks: ['Reports em notebooks', 'Estudos estatísticos menores, mas mais densos, escritos como reports no GitHub com gráficos, premissas, incerteza e checagens reprodutíveis.'],
+        notebooks: ['Reports em notebooks', 'Estudos estatísticos menores, mas mais densos, escritos como reports no GitLab com gráficos, premissas, incerteza e checagens reprodutíveis.'],
         methodtab: ['Método', 'O portfólio segue um fluxo analítico repetível: enquadrar a decisão, auditar os dados, integrar fontes, escolher a lente analítica certa, publicar outputs úteis e comunicar limites com clareza.'],
         stack: ['Stack', 'Ferramentas e plataformas usadas no portfólio e reforçadas pelos cursos recentes: Python, SQL, DuckDB, Power BI, Looker Studio, BigQuery, Snowflake, machine learning, grafos, NLP, arquitetura orientada a Databricks, APIs públicas e publicação web.'],
         background: ['Background', 'A camada de trajetória por trás dos projetos: saúde, Engenharia Biomédica, Gestão Hospitalar, EBSERH/HC-UFU, marketing technology e liderança de projetos de mídia para pharma/health.'],
@@ -611,7 +611,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         metaLine: 'Health Analytics · Telemedicina · Acesso espacial · Dados públicos',
         actions: [
           { label: 'Abrir atlas', href: '/dashboards/ubs-healthcare-mapping/' },
-          { label: 'Abrir repositório', href: 'https://github.com/luandarodrigues/luandarodrigues/tree/main/projects/ubs-healthcare-mapping', external: true },
+          { label: 'Abrir repositório', href: 'https://gitlab.com/luanda-rodrigues/luandarodrigues/-/tree/main/projects/ubs-healthcare-mapping', external: true },
         ],
       },
       {
@@ -628,7 +628,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         metaLine: 'People Analytics · BI Product · Dashboard Design · Workforce Planning',
         actions: [
           { label: 'Abrir painel', href: '/pt/workforce-intelligence' },
-          { label: 'Abrir repositório', href: 'https://github.com/luandarodrigues/workforce-labor-market-intelligence-bi-suite', external: true },
+          { label: 'Abrir repositório', href: 'https://gitlab.com/luanda-rodrigues/workforce-labor-market-intelligence-bi-suite', external: true },
         ],
       },
       {
@@ -645,7 +645,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         metaLine: 'Databricks · Market Intelligence · Crypto Analytics · Data Product',
         actions: [
           { label: 'Abrir painel', href: 'https://crypto-market-intelligence-lakehous.vercel.app/?lang=pt-BR', external: true },
-          { label: 'Abrir repositório', href: 'https://github.com/luandarodrigues/crypto-market-intelligence-lakehouse', external: true },
+          { label: 'Abrir repositório', href: 'https://gitlab.com/luanda-rodrigues/crypto-market-intelligence-lakehouse', external: true },
         ],
       },
       {
@@ -662,7 +662,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         metaLine: 'Machine Learning · Clinical Risk · Scikit-learn · Responsible ML',
         actions: [
           { label: 'Abrir painel', href: 'https://luandarodrigues.github.io/heart-disease-risk-prediction/', external: true },
-          { label: 'Abrir repositório', href: 'https://github.com/luandarodrigues/luandarodrigues/tree/main/projects/heart-disease-risk-ml', external: true },
+          { label: 'Abrir repositório', href: 'https://gitlab.com/luanda-rodrigues/heart-disease-risk-prediction', external: true },
         ],
       },
       {
@@ -679,7 +679,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         metaLine: 'SQL · Logística · Customer Experience · Operational Analytics',
         actions: [
           { label: 'Abrir painel', href: 'https://luandarodrigues.github.io/olist-delivery-experience-analytics/?v=4', external: true },
-          { label: 'Abrir repositório', href: 'https://github.com/luandarodrigues/luandarodrigues/tree/main/projects/olist-ecommerce-experience-analytics', external: true },
+          { label: 'Abrir repositório', href: 'https://gitlab.com/luanda-rodrigues/olist-delivery-experience-analytics', external: true },
         ],
       },
       {
@@ -696,7 +696,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         metaLine: 'NetworkX · NLP · Graphs · Recommender Systems',
         actions: [
           { label: 'Abrir painel', href: 'https://cinegraph-network-intelligence-lcsr.streamlit.app/', external: true },
-          { label: 'Abrir repositório', href: 'https://github.com/luandarodrigues/luandarodrigues/tree/main/projects/cinegraph-network-intelligence', external: true },
+          { label: 'Abrir repositório', href: 'https://gitlab.com/luanda-rodrigues/cinegraph-network-intelligence', external: true },
         ],
       },
     ],
@@ -706,7 +706,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         title: 'GLP-1 Bayesian Pharmacovigilance',
         result: 'Com openFDA/FAERS, o report compara Semaglutide e Tirzepatide por um modelo Beta-Binomial. O foco não é causalidade clínica, e sim um sinal estatístico cuidadoso sobre serious reports e viés de notificação.',
         methods: ['openFDA/FAERS', 'Beta-Binomial', 'Intervalos posteriores'],
-        href: 'https://github.com/luandarodrigues/projectsforjupyternotebook/tree/main/notebooks/glp1-bayesian-farmacovigilancia',
+        href: 'https://gitlab.com/luanda-rodrigues/projectsforjupyternotebook/-/tree/main/notebooks/glp1-bayesian-farmacovigilancia',
         linkLabel: 'Abrir report',
       },
       {
@@ -714,7 +714,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         title: 'Remote Work Salary Premium',
         result: 'O gap bruto de salário remoto cai depois dos ajustes: AIPW estima prêmio médio de 2,4%, com intervalo de -8,2% a 14,2%. A leitura principal é sobre seleção, confundimento e incerteza.',
         methods: ['AIPW', 'DML', 'Propensity score'],
-        href: 'https://github.com/luandarodrigues/projectsforjupyternotebook/tree/main/notebooks/remote-work-salary-causal-inference',
+        href: 'https://gitlab.com/luanda-rodrigues/projectsforjupyternotebook/-/tree/main/notebooks/remote-work-salary-causal-inference',
         linkLabel: 'Abrir report',
       },
       {
@@ -722,7 +722,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         title: 'Crypto Market Regime Detection',
         result: 'Com dados recentes de BTC/ETH da Binance, o notebook separa regimes de mercado com mistura gaussiana, escolha por BIC e teste fora da amostra. O report lê volatilidade, drawdown e estabilidade dos regimes.',
         methods: ['Binance API', 'GMM', 'BIC + holdout'],
-        href: 'https://github.com/luandarodrigues/projectsforjupyternotebook/tree/main/notebooks/crypto-market-regime-detection',
+        href: 'https://gitlab.com/luanda-rodrigues/projectsforjupyternotebook/-/tree/main/notebooks/crypto-market-regime-detection',
         linkLabel: 'Abrir report',
       },
       {
@@ -730,7 +730,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         title: 'Brazil Inflation & Monetary Regimes',
         result: 'Com séries BCB/SGS de 2002 a 2026, o projeto encontra 4 regimes por BIC e lê inflação, Selic, câmbio e juros reais junto com bibliografia sobre pass-through e inflation targeting.',
         methods: ['BCB/SGS', 'GMM', 'Revisão bibliográfica'],
-        href: 'https://github.com/luandarodrigues/projectsforjupyternotebook/tree/main/notebooks/brazil-inflation-monetary-regimes',
+        href: 'https://gitlab.com/luanda-rodrigues/projectsforjupyternotebook/-/tree/main/notebooks/brazil-inflation-monetary-regimes',
         linkLabel: 'Abrir report',
       },
     ],
@@ -740,7 +740,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
       accent: 'decisões.',
       note: 'Envie uma mensagem estruturada por aqui. O formulário encaminha direto para minha caixa de entrada.',
       social: [
-        { label: 'GitHub', href: 'https://github.com/luandarodrigues', external: true },
+        { label: 'GitLab', href: 'https://gitlab.com/luanda-rodrigues', external: true },
         { label: 'LinkedIn', href: 'https://www.linkedin.com/in/luanda-rodrigues', external: true },
       ],
       form: {
