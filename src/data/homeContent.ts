@@ -394,6 +394,23 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
           { label: 'Open repository', href: 'https://gitlab.com/luanda-rodrigues/cinegraph-network-intelligence', external: true },
         ],
       },
+      {
+        number: '07',
+        metric: '381 foods catalogued',
+        title: 'Pode Comer?',
+        summary: 'A live bilingual web app that answers a narrow, high-stakes question: is this specific Brazilian food safe for someone with a given allergy or intolerance? Instead of rigid category rules, every entry ties its risk reading to a graded, DOI-verified source, covering 13 allergy and intolerance profiles from anaphylaxis-risk allergens to lactose and FODMAP. It ships as a fast, installable PWA people use for real grocery-aisle decisions.',
+        cluster: 'health',
+        meta: [
+          { label: 'Scope', title: 'Food safety lookup', text: '381 foods and preparations, 675 search aliases and 13 allergy/intolerance profiles, in Portuguese and English.' },
+          { label: 'Method', title: 'React + evidence pipeline', text: 'TypeScript/React PWA with a DOI-verified bibliography and a data-governance process that adds or updates risk data without silently changing existing readings.' },
+          { label: 'Decision value', title: 'Everyday safety', text: 'Lets someone with an allergy or intolerance decide in seconds whether a specific food is safe for them, with the evidence one click away.' },
+        ],
+        metaLine: 'Consumer Health App · Food Safety · Evidence-Based · PT/EN',
+        actions: [
+          { label: 'Open app', href: 'https://podecomer.app.br', external: true },
+          { label: 'Open repository', href: 'https://gitlab.com/luandarodrigues/pode-comer', external: true },
+        ],
+      },
     ],
     notebookReports: [
       {
@@ -697,6 +714,23 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         actions: [
           { label: 'Abrir painel', href: 'https://cinegraph-network-intelligence-lcsr.streamlit.app/', external: true },
           { label: 'Abrir repositório', href: 'https://gitlab.com/luanda-rodrigues/cinegraph-network-intelligence', external: true },
+        ],
+      },
+      {
+        number: '07',
+        metric: '381 alimentos catalogados',
+        title: 'Pode Comer?',
+        summary: 'Um app bilíngue ao vivo que responde uma pergunta estreita e de alto risco: esse alimento específico é seguro para quem tem determinada alergia ou intolerância? Em vez de regras rígidas por categoria, cada item liga sua leitura de risco a uma fonte graduada e verificada por DOI, cobrindo 13 perfis de alergia e intolerância, de alérgenos com risco de anafilaxia até lactose e FODMAP. Roda como um PWA rápido e instalável que as pessoas usam de verdade no corredor do mercado.',
+        cluster: 'health',
+        meta: [
+          { label: 'Escopo', title: 'Consulta de segurança alimentar', text: '381 alimentos e preparações, 675 sinônimos de busca e 13 perfis de alergia/intolerância, em português e inglês.' },
+          { label: 'Método', title: 'React + pipeline de evidências', text: 'PWA em TypeScript/React com bibliografia verificada por DOI e um processo de governança de dados que adiciona ou atualiza risco sem alterar leituras existentes silenciosamente.' },
+          { label: 'Valor decisório', title: 'Segurança no dia a dia', text: 'Ajuda quem tem alergia ou intolerância a decidir em segundos se um alimento específico é seguro, com a evidência a um clique.' },
+        ],
+        metaLine: 'Health Tech · Segurança Alimentar · Baseado em Evidências · PT/EN',
+        actions: [
+          { label: 'Abrir app', href: 'https://podecomer.app.br', external: true },
+          { label: 'Abrir repositório', href: 'https://gitlab.com/luandarodrigues/pode-comer', external: true },
         ],
       },
     ],
