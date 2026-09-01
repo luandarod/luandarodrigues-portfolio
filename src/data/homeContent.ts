@@ -294,6 +294,23 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
     projects: [
       {
         number: '01',
+        metric: '381 foods catalogued',
+        title: 'Pode Comer?',
+        summary: 'A live bilingual web app that answers a narrow, high-stakes question: is this specific Brazilian food safe for someone with a given allergy or intolerance? Instead of rigid category rules, every entry ties its risk reading to a graded, DOI-verified source, covering 13 allergy and intolerance profiles from anaphylaxis-risk allergens to lactose and FODMAP. It ships as a fast, installable PWA people use for real grocery-aisle decisions.',
+        cluster: 'health',
+        meta: [
+          { label: 'Scope', title: 'Food safety lookup', text: '381 foods and preparations, 675 search aliases and 13 allergy/intolerance profiles, in Portuguese and English.' },
+          { label: 'Method', title: 'React + evidence pipeline', text: 'TypeScript/React PWA with a DOI-verified bibliography and a data-governance process that adds or updates risk data without silently changing existing readings.' },
+          { label: 'Decision value', title: 'Everyday safety', text: 'Lets someone with an allergy or intolerance decide in seconds whether a specific food is safe for them, with the evidence one click away.' },
+        ],
+        metaLine: 'Consumer Health App · Food Safety · Evidence-Based · PT/EN',
+        actions: [
+          { label: 'Open app', href: 'https://podecomer.app.br', external: true },
+          { label: 'Open repository', href: 'https://gitlab.com/luandarodrigues/pode-comer', external: true },
+        ],
+      },
+      {
+        number: '02',
         metric: '5,567 municipalities',
         title: 'Brazil Telemedicine Access Atlas',
         summary: 'This atlas asks where telemedicine can expand access in Brazil by combining UBS coverage, census-sector population origins, pharmacies, Farmácia Popular, APS coverage, digital readiness and spatial access layers. It separates broad national opportunity from conservative pharmacy-assisted pilots, while keeping insufficient-evidence municipalities outside the ranking.',
@@ -310,7 +327,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         ],
       },
       {
-        number: '02',
+        number: '03',
         metric: 'Workforce planning layer',
         title: 'Workforce & Labor Market Intelligence',
         summary: 'This project turns fragmented workforce signals into a decision-ready view of retention pressure, labor-market tension and hiring risk. I structured internal people data with external context, KPI logic and interactive filters so the final product can help teams identify where cost, churn risk and talent scarcity converge instead of reading HR metrics in isolation.',
@@ -327,7 +344,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         ],
       },
       {
-        number: '03',
+        number: '04',
         metric: 'Lakehouse + app',
         title: 'Crypto Market Intelligence Lakehouse',
         summary: 'This platform turns crypto market signals into an analytical product that ranks which assets and narratives deserve attention. I structured public spot, derivatives and on-chain data through a Databricks-oriented bronze-silver-gold flow, then published both a case-study layer and a separate interactive app from the same curated output.',
@@ -344,7 +361,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         ],
       },
       {
-        number: '04',
+        number: '05',
         metric: '918 observations',
         title: 'Heart Disease Risk Prediction',
         summary: 'This model shows how structured clinical variables can support earlier risk interpretation without pretending to automate diagnosis. With 918 observations and 11 predictors, I compared performance across the main validation metrics, framed the model as analytical support for triage, and made the limits explicit so the result stays useful, cautious and clinically interpretable.',
@@ -361,7 +378,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         ],
       },
       {
-        number: '05',
+        number: '06',
         metric: '99,441 orders',
         title: 'Brazilian E-Commerce Delivery Experience',
         summary: 'This analysis reveals where logistics friction becomes customer dissatisfaction and which parts of the purchase journey most affect the final experience. Using 99,441 orders plus delivery, freight, seller and review data, I built an operational reading of delays, category behavior and payment patterns so the case supports action on service quality rather than only descriptive reporting.',
@@ -378,7 +395,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         ],
       },
       {
-        number: '06',
+        number: '07',
         metric: '22,393 films',
         title: 'CineGraph Network Intelligence',
         summary: 'This project shows how graph structure and text signals can turn entertainment data into recommendation logic, discovery paths and cluster insight. I connected films, series, cast relationships and review language into a single analytical network, then used NetworkX and NLP techniques to expose collaboration patterns, thematic proximity and new ways to interpret recommendation behavior beyond simple metadata matching.',
@@ -392,23 +409,6 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         actions: [
           { label: 'Open panel', href: 'https://cinegraph-network-intelligence-lcsr.streamlit.app/', external: true },
           { label: 'Open repository', href: 'https://gitlab.com/luanda-rodrigues/cinegraph-network-intelligence', external: true },
-        ],
-      },
-      {
-        number: '07',
-        metric: '381 foods catalogued',
-        title: 'Pode Comer?',
-        summary: 'A live bilingual web app that answers a narrow, high-stakes question: is this specific Brazilian food safe for someone with a given allergy or intolerance? Instead of rigid category rules, every entry ties its risk reading to a graded, DOI-verified source, covering 13 allergy and intolerance profiles from anaphylaxis-risk allergens to lactose and FODMAP. It ships as a fast, installable PWA people use for real grocery-aisle decisions.',
-        cluster: 'health',
-        meta: [
-          { label: 'Scope', title: 'Food safety lookup', text: '381 foods and preparations, 675 search aliases and 13 allergy/intolerance profiles, in Portuguese and English.' },
-          { label: 'Method', title: 'React + evidence pipeline', text: 'TypeScript/React PWA with a DOI-verified bibliography and a data-governance process that adds or updates risk data without silently changing existing readings.' },
-          { label: 'Decision value', title: 'Everyday safety', text: 'Lets someone with an allergy or intolerance decide in seconds whether a specific food is safe for them, with the evidence one click away.' },
-        ],
-        metaLine: 'Consumer Health App · Food Safety · Evidence-Based · PT/EN',
-        actions: [
-          { label: 'Open app', href: 'https://podecomer.app.br', external: true },
-          { label: 'Open repository', href: 'https://gitlab.com/luandarodrigues/pode-comer', external: true },
         ],
       },
     ],
@@ -616,6 +616,23 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
     projects: [
       {
         number: '01',
+        metric: '381 alimentos catalogados',
+        title: 'Pode Comer?',
+        summary: 'Um app bilíngue ao vivo que responde uma pergunta estreita e de alto risco: esse alimento específico é seguro para quem tem determinada alergia ou intolerância? Em vez de regras rígidas por categoria, cada item liga sua leitura de risco a uma fonte graduada e verificada por DOI, cobrindo 13 perfis de alergia e intolerância, de alérgenos com risco de anafilaxia até lactose e FODMAP. Roda como um PWA rápido e instalável que as pessoas usam de verdade no corredor do mercado.',
+        cluster: 'health',
+        meta: [
+          { label: 'Escopo', title: 'Consulta de segurança alimentar', text: '381 alimentos e preparações, 675 sinônimos de busca e 13 perfis de alergia/intolerância, em português e inglês.' },
+          { label: 'Método', title: 'React + pipeline de evidências', text: 'PWA em TypeScript/React com bibliografia verificada por DOI e um processo de governança de dados que adiciona ou atualiza risco sem alterar leituras existentes silenciosamente.' },
+          { label: 'Valor decisório', title: 'Segurança no dia a dia', text: 'Ajuda quem tem alergia ou intolerância a decidir em segundos se um alimento específico é seguro, com a evidência a um clique.' },
+        ],
+        metaLine: 'Health Tech · Segurança Alimentar · Baseado em Evidências · PT/EN',
+        actions: [
+          { label: 'Abrir app', href: 'https://podecomer.app.br', external: true },
+          { label: 'Abrir repositório', href: 'https://gitlab.com/luandarodrigues/pode-comer', external: true },
+        ],
+      },
+      {
+        number: '02',
         metric: '5.567 municípios',
         title: 'Atlas Nacional de Telemedicina e Acesso Territorial',
         summary: 'Este atlas pergunta onde a telemedicina pode ampliar acesso no Brasil, combinando cobertura de UBS, origens populacionais por setores censitários, farmácias, Farmácia Popular, cobertura APS, prontidão digital e camadas de acesso espacial. Ele separa a oportunidade nacional ampla do piloto conservador em farmácias e mantém municípios com evidência insuficiente fora do ranking.',
@@ -632,7 +649,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         ],
       },
       {
-        number: '02',
+        number: '03',
         metric: 'Camada de workforce planning',
         title: 'Workforce & Labor Market Intelligence',
         summary: 'Este projeto transforma sinais dispersos de workforce em uma leitura acionável sobre pressão de retenção, tensão de mercado e risco de contratação. Estruturei dados internos de pessoas com contexto externo, lógica de KPI e filtros interativos para que o produto final ajude equipes a identificar onde custo, risco de saída e escassez de talento se concentram, em vez de ler métricas de RH de forma isolada.',
@@ -649,7 +666,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         ],
       },
       {
-        number: '03',
+        number: '04',
         metric: 'Lakehouse + app',
         title: 'Crypto Market Intelligence Lakehouse',
         summary: 'Esta plataforma transforma sinais de mercado cripto em um produto analítico que destaca quais ativos e narrativas merecem atenção. Estruturei dados públicos de spot, derivativos e on-chain em um fluxo bronze-silver-gold orientado a Databricks, e depois publiquei tanto uma camada de case study quanto um app interativo separado a partir do mesmo output curado.',
@@ -666,7 +683,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         ],
       },
       {
-        number: '04',
+        number: '05',
         metric: '918 observações',
         title: 'Predição de Risco de Doença Cardíaca',
         summary: 'Este modelo mostra como variáveis clínicas estruturadas podem apoiar interpretação precoce de risco sem fingir automatizar diagnóstico. Com 918 observações e 11 preditores, comparei desempenho nas principais métricas de validação, enquadrei o modelo como suporte analítico para triagem e deixei os limites explícitos para que o resultado permaneça útil, cauteloso e clinicamente interpretável.',
@@ -683,7 +700,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         ],
       },
       {
-        number: '05',
+        number: '06',
         metric: '99.441 pedidos',
         title: 'Experiência de Entrega no E-Commerce Brasileiro',
         summary: 'Esta análise revela onde o atrito logístico se transforma em insatisfação do cliente e quais partes da jornada de compra mais afetam a experiência final. Com 99.441 pedidos e dados de entrega, frete, sellers e reviews, construí uma leitura operacional de atrasos, comportamento por categoria e padrões de pagamento para apoiar ação sobre qualidade de serviço.',
@@ -700,7 +717,7 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         ],
       },
       {
-        number: '06',
+        number: '07',
         metric: '22.393 filmes',
         title: 'CineGraph Network Intelligence',
         summary: 'Este projeto mostra como estrutura de grafo e sinais de texto podem transformar dados de entretenimento em lógica de recomendação, caminhos de descoberta e leitura de clusters. Conectei filmes, séries, relações de elenco e linguagem de reviews em uma única rede analítica, depois usei NetworkX e técnicas de NLP para expor padrões de colaboração, proximidade temática e novas formas de interpretar recomendação além do matching simples por metadados.',
@@ -714,23 +731,6 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         actions: [
           { label: 'Abrir painel', href: 'https://cinegraph-network-intelligence-lcsr.streamlit.app/', external: true },
           { label: 'Abrir repositório', href: 'https://gitlab.com/luanda-rodrigues/cinegraph-network-intelligence', external: true },
-        ],
-      },
-      {
-        number: '07',
-        metric: '381 alimentos catalogados',
-        title: 'Pode Comer?',
-        summary: 'Um app bilíngue ao vivo que responde uma pergunta estreita e de alto risco: esse alimento específico é seguro para quem tem determinada alergia ou intolerância? Em vez de regras rígidas por categoria, cada item liga sua leitura de risco a uma fonte graduada e verificada por DOI, cobrindo 13 perfis de alergia e intolerância, de alérgenos com risco de anafilaxia até lactose e FODMAP. Roda como um PWA rápido e instalável que as pessoas usam de verdade no corredor do mercado.',
-        cluster: 'health',
-        meta: [
-          { label: 'Escopo', title: 'Consulta de segurança alimentar', text: '381 alimentos e preparações, 675 sinônimos de busca e 13 perfis de alergia/intolerância, em português e inglês.' },
-          { label: 'Método', title: 'React + pipeline de evidências', text: 'PWA em TypeScript/React com bibliografia verificada por DOI e um processo de governança de dados que adiciona ou atualiza risco sem alterar leituras existentes silenciosamente.' },
-          { label: 'Valor decisório', title: 'Segurança no dia a dia', text: 'Ajuda quem tem alergia ou intolerância a decidir em segundos se um alimento específico é seguro, com a evidência a um clique.' },
-        ],
-        metaLine: 'Health Tech · Segurança Alimentar · Baseado em Evidências · PT/EN',
-        actions: [
-          { label: 'Abrir app', href: 'https://podecomer.app.br', external: true },
-          { label: 'Abrir repositório', href: 'https://gitlab.com/luandarodrigues/pode-comer', external: true },
         ],
       },
     ],
