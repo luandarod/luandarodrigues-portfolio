@@ -289,6 +289,8 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         { label: 'Education', title: 'Biomedical Engineering + Hospital Management', text: 'Systems thinking, healthcare technology and analytical foundations.' },
         { label: 'Public sector', title: 'EBSERH · 5th place', text: 'Brazilian public-healthcare context and operational hospital perspective.' },
         { label: 'Digital', title: 'Marketing technology & project leadership', text: 'Content, design, HTML email, scientific communication, automation and leadership across 10 pharma/health media projects.' },
+        { label: 'Research', title: 'Non-degree visiting student — CIPE/UEPA', text: "Professional Master's Program in Surgery and Experimental Research since Sep 2026, researching a custom 3D bicycle model for track and training use; auditing status (non-degree), not a regular enrolled candidate." },
+        { label: 'Certifications', title: 'Johns Hopkins · Snowflake · Google', text: 'Advanced Statistics for Data Science (Johns Hopkins), Snowflake Data Engineering, Google Project Management Professional Certificate, Digital Healthcare Informatics & AI (Illinois Tech).' },
       ],
     },
     projects: [
@@ -611,6 +613,8 @@ export const homeContent: Record<'en' | 'pt', HomeContent> = {
         { label: 'Formação', title: 'Engenharia Biomédica + Gestão Hospitalar', text: 'Visão sistêmica, tecnologia em saúde e base analítica.' },
         { label: 'Setor público', title: 'EBSERH · 5º lugar', text: 'Contexto brasileiro de saúde pública e perspectiva hospitalar operacional.' },
         { label: 'Digital', title: 'Marketing technology & liderança de projetos', text: 'Conteúdo, design, HTML email, comunicação científica, automação e liderança em 10 projetos de mídia para pharma/health.' },
+        { label: 'Pesquisa', title: 'Aluna especial — CIPE/UEPA', text: 'Mestrado Profissional em Cirurgia e Pesquisa Experimental desde set/2026, pesquisando um modelo 3D exclusivo de bicicleta para pista e treino; status de aluna especial, sem matrícula regular.' },
+        { label: 'Certificações', title: 'Johns Hopkins · Snowflake · Google', text: 'Advanced Statistics for Data Science (Johns Hopkins), Snowflake Data Engineering, Google Project Management Professional Certificate, Digital Healthcare Informatics & AI (Illinois Tech).' },
       ],
     },
     projects: [
